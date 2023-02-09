@@ -42,33 +42,33 @@ body{
 }
 .top-nav ul li{
 	display:inline-block;
-	float: left;
 	border-left: 1px solid rgb(31, 132, 224);
 }
 .top-nav ul li:first-child{
 	border-left:none;
 }
+/*--contact button in the nav-bar--*/
 .top-nav ul li a{
 	font-family: 'Ropa Sans', sans-serif;
-	background:#3391E7;
+	background:darkblue;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 30px;
 	display: block;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
 }
-.top-nav ul li a:hover{
-	color:whitesmoke;
-	cursor:pointer;
-}
+/*---The home buton ---*/
 .top-nav li.active> a, .top-nav li> a:hover {
-	background: rgb(50, 133, 209);
+	background:darkblue;
 	border-left-color:rgb(50, 133, 209);
 	border-radius: 10px;
-	width:30%;
+	
 }
 /*-----content-grids-----*/
 .content-grids{
-	background:#3391E7;
+	background:#3285d1;
 	padding: 10px 0px;
 }
 /*  GRID OF THREE   ============================================================================= */
